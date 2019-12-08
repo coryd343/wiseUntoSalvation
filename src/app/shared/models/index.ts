@@ -1,0 +1,1 @@
+export { Post } from 'src/app/shared/models/post.model';
