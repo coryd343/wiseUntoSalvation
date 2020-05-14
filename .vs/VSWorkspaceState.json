@@ -4,9 +4,10 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\home",
-    "\\src\\app\\mat-common",
-    "\\src\\app\\services"
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\services",
+    "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\services\\index.ts",
+  "SelectedNode": "\\src\\environments\\environment.ts",
   "PreviewInSolutionExplorer": false
 }

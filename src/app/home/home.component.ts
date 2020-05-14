@@ -14,13 +14,13 @@ export class HomeComponent implements OnInit {
   constructor(private wpService: WordpressService) { }
 
   async ngOnInit() {
-    await this.getPosts();
-    console.log(this.postList);
+    this.postList = [];
+    //await this.getPosts();
+    //console.log(this.postList);
   }
 
   async getPosts() {
     this.postList = await this.wpService.getPosts();
-    console.log(this.postList);
   }
 
 }
